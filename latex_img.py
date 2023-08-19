@@ -18,7 +18,7 @@ def render_latex_formula(formula, file_name='formula.png', font_size=60, dpi=300
     bounding_box = ax.get_window_extent(fig.canvas.get_renderer()).transformed(fig.dpi_scale_trans.inverted())
     fig.set_size_inches(bounding_box.width, bounding_box.height)
 
-    plt.savefig(file_name, bbox_inches='tight', pad_inches=0, dpi=dpi)
+    plt.savefig(file_name, bbox_inches='tight', pad_inches=0.2, dpi=dpi)
     plt.close()
     print(f'Image saved as {file_name} in the current directory.')
 
