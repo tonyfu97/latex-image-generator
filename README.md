@@ -34,8 +34,9 @@ After following the installation steps, you can use the script as follows:
 ```bash
 latex_img "e^{i\pi} + 1 = 0" "Euler-Id"
 ```
-
-![Euler's Identity](examples/Euler-Id.png)
+<p align="center">
+<img src="examples/Euler-Id.png" alt="Euler's Identity" width="200">
+</p>
 
 This will create an image `Euler-Id.png` in the current directory, containing the given formula. If we did not specify the second argument (the image name), the image would be named `formula.png` by default.
 
@@ -51,18 +52,24 @@ This will create an image `Euler-Id.png` in the current directory, containing th
 ```bash
 latex_img "\frac{\partial \mathbf{u}}{\partial t} + (\mathbf{u} \cdot \nabla) \mathbf{u} - \nu \nabla^2 \mathbf{u} = -\nabla p" "Navier-Stokes"
 ```
-![Navier-Stokes Equation](examples/Navier-Stokes.png)
+<p align="center">
+<img src="examples/Navier-Stokes.png" alt="Navier-Stokes Equation" width="400"/>
+</p>
 
 ### Schrödinger Equation
 
 ```bash
 latex_img "i\hbar\frac{\partial}{\partial t}\Psi = -\frac{\hbar^2}{2m}\nabla^2\Psi + V\Psi" "Schrodingers"
 ```
-![Schrödinger Equation](examples/Schrodingers.png)
+<p align="center">
+<img src="examples/Schrodingers.png" alt="Schrödinger Equation" width="400"/>
+</p>
 
 ### Quadratic Formula
 
 ```bash
 latex_img "x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{{2a}}" "quadratic"
 ```
-![Quadratic Formula](examples/quadratic.png)
+<p align="center">
+<img src="examples/quadratic.png" alt="Quadratic Formula" width="200"/>
+</p>
